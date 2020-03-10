@@ -1,0 +1,20 @@
+¿Qué diferencias y similitudes existen entre clases abstractas e interfaces?
+
+-Las clases abstractas solo pueden heredar de una clase, mientras que una interfaz puede extenderse a varias de ella misma, a la misma vez
+-Ninguna de las dos pueden crear una instancia u objeto con el operador new
+-La interfaz no contiene constructores
+-La clase abstracta tiene constructores
+-Solo los miembros completos de la clase abstracta pueden ser estáticos
+-Las clases abstractas son más adecuadas para la reutilización de código
+
+¿Cuando se recomienda usar una sobre la otra?
+
+-Se recomienda usar una clase abstracta cuando cuando no se va a instanciar pero si se va a heredar en otras partes del código
+-Se recomienda usar una interfaz cuando se especifica que se debe hacer pero no cómo se debe implementar
+
+¿Cúando es conveniente el usuario de tipos de datos genéricos y enumeradores?
+
+-Es conveniente usar el tipo de datos enumeradorese cuando se tiene una listade constantes con nombres que definen un nuevo tipo de
+datos. Un objeto de tipo de enumeración solo puede contener los valores definidos por la lista
+-Es conveniente usar el tipo de datos genéricos cuando se necesitan crear clases. interfaces y métodos en los que los tipos de datos sobre
+los que se especifican como parámetro.
